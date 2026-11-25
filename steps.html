@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weekly Step Analysis</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #17211b;
+      background: #f3f6f2;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 40px 20px;
+    }
+
+    main {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 5vw, 3rem);
+    }
+
+    .subtitle {
+      margin: 0 0 28px;
+      color: #5b685f;
+    }
+
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+
+    .card,
+    .panel {
+      border: 1px solid #e0e7e1;
+      border-radius: 16px;
+      background: #fff;
+      box-shadow: 0 8px 24px rgb(23 33 27 / 5%);
+    }
+
+    .card {
+      padding: 20px;
+    }
+
+    .card-label {
+      display: block;
+      margin-bottom: 10px;
+      color: #5b685f;
+      font-size: 0.9rem;
+    }
+
+    .card strong {
+      font-size: 1.8rem;
+    }
+
+    .panel {
+      margin-top: 20px;
+      padding: 24px;
+    }
+
+    h2 {
+      margin: 0 0 18px;
+      font-size: 1.25rem;
+    }
+
+    .chart {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+    }
+
+    th,
+    td {
+      padding: 13px 10px;
+      border-bottom: 1px solid #e8ede9;
+    }
+
+    th:last-child,
+    td:last-child {
+      text-align: right;
+    }
+
+    tbody tr:last-child td {
+      border-bottom: 0;
+    }
+
+    @media (max-width: 520px) {
+      body {
+        padding: 24px 12px;
+      }
+
+      .panel {
+        padding: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Weekly step analysis</h1>
+      <p class="subtitle">A summary of steps recorded each day.</p>
+    </header>
+
+    <section class="summary" aria-label="Weekly summary">
+      <article class="card">
+        <span class="card-label">Total steps</span>
+        <strong>46,000</strong>
+      </article>
+      <article class="card">
+        <span class="card-label">Daily average</span>
+        <strong>6,571</strong>
+      </article>
+      <article class="card">
+        <span class="card-label">Most active day</span>
+        <strong>Saturday</strong>
+        <span class="card-label">10,500 steps</span>
+      </article>
+    </section>
+
+    <section class="panel" aria-labelledby="chart-heading">
+      <h2 id="chart-heading">Steps by day</h2>
+      <img class="chart" src="passi_plot.svg" alt="Bar chart showing daily step counts from Monday to Sunday">
+    </section>
+
+    <section class="panel" aria-labelledby="details-heading">
+      <h2 id="details-heading">Daily results</h2>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Day</th>
+            <th scope="col">Steps</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Monday</td><td>4,200</td></tr>
+          <tr><td>Tuesday</td><td>6,800</td></tr>
+          <tr><td>Wednesday</td><td>5,100</td></tr>
+          <tr><td>Thursday</td><td>8,200</td></tr>
+          <tr><td>Friday</td><td>7,300</td></tr>
+          <tr><td>Saturday</td><td>10,500</td></tr>
+          <tr><td>Sunday</td><td>3,900</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+</body>
+</html>

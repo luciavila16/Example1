@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<rect width="100%" height="100%" fill="white"/>
+<text x="450" y="35" text-anchor="middle" font-family="Arial" font-size="22">Daily steps</text>
+<line x1="90" y1="390.0" x2="870" y2="390.0" stroke="#dddddd"/>
+<text x="78" y="395.0" text-anchor="end" font-family="Arial" font-size="13">0</text>
+<line x1="90" y1="336.7" x2="870" y2="336.7" stroke="#dddddd"/>
+<text x="78" y="341.7" text-anchor="end" font-family="Arial" font-size="13">2,000</text>
+<line x1="90" y1="283.3" x2="870" y2="283.3" stroke="#dddddd"/>
+<text x="78" y="288.3" text-anchor="end" font-family="Arial" font-size="13">4,000</text>
+<line x1="90" y1="230.0" x2="870" y2="230.0" stroke="#dddddd"/>
+<text x="78" y="235.0" text-anchor="end" font-family="Arial" font-size="13">6,000</text>
+<line x1="90" y1="176.7" x2="870" y2="176.7" stroke="#dddddd"/>
+<text x="78" y="181.7" text-anchor="end" font-family="Arial" font-size="13">8,000</text>
+<line x1="90" y1="123.3" x2="870" y2="123.3" stroke="#dddddd"/>
+<text x="78" y="128.3" text-anchor="end" font-family="Arial" font-size="13">10,000</text>
+<line x1="90" y1="70.0" x2="870" y2="70.0" stroke="#dddddd"/>
+<text x="78" y="75.0" text-anchor="end" font-family="Arial" font-size="13">12,000</text>
+<rect x="111.2" y="278.0" width="69.1" height="112.0" fill="#4285f4"/>
+<text x="145.7" y="270.0" text-anchor="middle" font-family="Arial" font-size="13">4,200</text>
+<text x="145.7" y="418" text-anchor="middle" font-family="Arial" font-size="13">lunedi</text>
+<rect x="222.6" y="208.7" width="69.1" height="181.3" fill="#4285f4"/>
+<text x="257.1" y="200.7" text-anchor="middle" font-family="Arial" font-size="13">6,800</text>
+<text x="257.1" y="418" text-anchor="middle" font-family="Arial" font-size="13">martedi</text>
+<rect x="334.0" y="254.0" width="69.1" height="136.0" fill="#4285f4"/>
+<text x="368.6" y="246.0" text-anchor="middle" font-family="Arial" font-size="13">5,100</text>
+<text x="368.6" y="418" text-anchor="middle" font-family="Arial" font-size="13">mercoledi</text>
+<rect x="445.5" y="171.3" width="69.1" height="218.7" fill="#4285f4"/>
+<text x="480.0" y="163.3" text-anchor="middle" font-family="Arial" font-size="13">8,200</text>
+<text x="480.0" y="418" text-anchor="middle" font-family="Arial" font-size="13">giovedi</text>
+<rect x="556.9" y="195.3" width="69.1" height="194.7" fill="#4285f4"/>
+<text x="591.4" y="187.3" text-anchor="middle" font-family="Arial" font-size="13">7,300</text>
+<text x="591.4" y="418" text-anchor="middle" font-family="Arial" font-size="13">venerdi</text>
+<rect x="668.3" y="110.0" width="69.1" height="280.0" fill="#4285f4"/>
+<text x="702.9" y="102.0" text-anchor="middle" font-family="Arial" font-size="13">10,500</text>
+<text x="702.9" y="418" text-anchor="middle" font-family="Arial" font-size="13">sabato</text>
+<rect x="779.7" y="286.0" width="69.1" height="104.0" fill="#4285f4"/>
+<text x="814.3" y="278.0" text-anchor="middle" font-family="Arial" font-size="13">3,900</text>
+<text x="814.3" y="418" text-anchor="middle" font-family="Arial" font-size="13">domenica</text>
+<line x1="90" y1="390" x2="870" y2="390" stroke="#333333"/>
+<text x="22" y="230.0" text-anchor="middle" font-family="Arial" font-size="14" transform="rotate(-90 22 230.0)">Steps</text>
+</svg>
