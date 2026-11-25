@@ -1,2 +1,2 @@
-print("Hello, Lucia!")
+print("Buenos días, Lucia!")
 
